@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Jost', sans-serif;
+}
+.hero{
+    background: #F3FCF7;
+}
+:root{
+    --bg-color : #ffffff;
+    --text-color: #000;
+    --second-color : #a09dab;
+    --main-color : #f75023;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font : 1.1rem;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    background: #F3FCF7;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 18%;
+    transition: .3s;
+}
+
+.logo img{
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+}
+.navlist{
+    display: flex;
+}
+
+.navlist li{
+    list-style: none;
+    position: relative;
+}
+
+.navlist a{
+    text-decoration: none;
+    font-size: var(--p-font);
+    color: var(--text-color);
+    padding: 10px 27px;
+}
+.navlist a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--main-color);
+    bottom: -3px;
+    left: 0;
+    transition: ease .40s;
+}
+.navlist a:hover::after{
+    width: 100%;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: var(--text-color);
+    z-index: 10;
+    cursor: pointer;
+    display: none;
+}
+.top-btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 30px;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 30px;
+    color: var(--text-color);
+    letter-spacing: 1px;
+    font-size: var(--p-font);
+    font-weight: 500;
+    transition: ease .50s;
+}
+.top-btn:hover{
+    transform: scale(1.1);
+    background: var(--main-color);
+    border: 2px solid var(--main-color);
+    color: var(--bg-color);
+}
+.bx-menu div{
+    height: 3px;
+    width: 30px;
+    background-color: #000;
+    margin: 5px 0;
+}
+
+header.sticky{
+    background: var(--bg-color);
+    padding: 13px 18%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.hero{
+    padding-top: 200px;
+    background-color: #f75023;
+}
