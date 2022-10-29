@@ -1,3 +1,6 @@
+
+/* 1425 px  */
+
 @media(max-width: 1425px ){
     header{
         padding: 16px 3%;
@@ -9,6 +12,74 @@
     }
 }
 
+@media(max-width: 1357px ){
+    .rating-up2{
+        top: -60px;
+        left: 25%;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        border-radius: 50px;
+        z-index: 222;
+    }
+    .rating-up{
+        z-index: 222;
+        top: -80px;
+        left: 25%;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        border-radius: 50px;
+    }
+    .dotImage{
+        top: -260px;
+        left: 230px;
+    }
+}
+
+@media(max-width: 1193px ){
+    .heroSections{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .heroImage img{
+        width: 100%;
+        position: relative;
+        max-width: 464px;
+    }
+    .hero{
+        margin-bottom: 400px;
+    }
+    .sponser{
+        justify-content: center;
+        align-items: center;
+        margin-top: 600px;
+    }
+    .heroText{
+        text-align: center;
+    }
+    .heroText h1{
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 62px;
+        text-align: center;
+        color: #1D1D1F;
+    }
+}
+@media(max-width: 997px ){
+    .benefits{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 80px;
+        text-align: center;
+    }
+    .popuarText{
+        text-align: center;
+    }
+}
+
+/* 970p x  */
+
 @media(max-width: 970px ){
     #menu-icon{
         display: block;
@@ -18,7 +89,7 @@
         top: -600px;
         left: 0;
         right: 0;
-        background:teal;
+        background: #c381c9;
         flex-direction: column;
         transition: .3s;
     }
@@ -35,5 +106,61 @@
     .navlist.active{
         top: 100%;
     }
+    .overText h1{
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
 
+}
+
+/* 547 px */
+
+@media(max-width: 547px ){
+    .dotImage{
+        top: -200px;
+        left: 100px;
+    }
+    .rating-up{
+        z-index: 2;
+        top: -130px;
+        left: 15%;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        border-radius: 50px;
+    }
+    .rating-up2{
+        top: -110px;
+        left: 15%;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        border-radius: 50px;
+        z-index: 2;
+    }
+    
+    .sponser{
+        justify-content: center;
+        align-items: center;
+        margin-top: 500px;
+    }
+    .full-width{
+        gap: 20px;
+    }
+    .border-bottom-div{
+        margin-top: 150px;
+    }
+    .benefitTexts h1{
+        font-size: 40px;
+        line-height: 53px;
+    }
+    .our-feature-text h1{
+        font-size: 40px;
+        line-height: 63px;
+    }
+    .popuarText h1{
+        font-size: 40px;
+        line-height: 53px;
+    }
+    .footerSection{
+        flex-direction: column;
+    }
 }
