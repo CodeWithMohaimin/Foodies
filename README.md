@@ -12,9 +12,9 @@ This is a practice repository for Learning Web development Segments. This Projec
 
 - A responsive design that works well on different devices.
 - A custom CSS grid layout.
-- QR code generation using a third-party library.
-- User can enter custom text to generate a QR code.
-- Copy to clipboard functionality.
+- Food Order
+- Products Showcase 
+- Product price
 
 ## Links
 
